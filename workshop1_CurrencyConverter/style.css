@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Noto Sans Mono", monospace;
+    font-size: 20px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 30px;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    margin: 30px;
+    transform: rotate(90deg);
+    transform-origin: center;
+}
+.btn img {
+    display: block;
+    width: 30px; 
+    height: auto;
+}
+.coin-img{
+    height: 300px;
+    max-width: 100%;
+}
+.currency{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.currency select{
+    padding: 5px;
+    border-radius: 5px;
+    background: transparent;
+    appearance: none;
+    position: relative;
+}
+.currency input{
+    border:0;
+    background: transparent;
+    font-size: 30px;
+    text-align: right;
+}
+.swap-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rate{
+    font-size: 20px;
+    padding: 0 40px;
+}
+select:focus,input:focus,button:focus{
+    outline: 0;
+}
